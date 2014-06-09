@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inicio</title>
+    <style>
+
+    	.jumbotron{
+    		width: 100%;
+    		margin-top: 6%;
+    	}
+
+    	.list-group{
+    		width: 50%;
+    		
+    	}
+
+    </style>
+    <!-- CSS de Bootstrap -->
+    <link href="BT/css/bootstrap.min.css" rel="stylesheet" media="screen">
+ 
+    <!-- librerías opcionales que activan el soporte de HTML5 para IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Avioncito de Papel</a>
+        </div>
+        
+      </div>
+    </div>
+
+  	<div class="container">
+  		<div class="jumbotron">
+        	<h1>Contactos</h1>
+        	<div class="list-group">
+  			<object type="text/html" data="Contactos.txt"></object>
+  			</div>
+
+
+    		<div class="btn-group btn-group-lg">
+  				<button type="button" class="btn btn-primary" onclick="window.location.href='agregarcontacto.html'">Nuevo contacto</button>
+  			</div>
+    	</div>
+
+      <a href="enviarmensaje.html"><input type="submit" value="Enviar Mensaje"></a>
+
+    </div>
+    
+    
+  	<!--<table class="table">
+  		<tr>
+  			<td>contacto 1</td>
+  		</tr>
+  	</table>-->
+  	
+ 
+    <!-- Librería jQuery requerida por los plugins de JavaScript -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+ 
+    <!-- Todos los plugins JavaScript de Bootstrap (también puedes
+         incluir archivos JavaScript individuales de los únicos
+         plugins que utilices) -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
